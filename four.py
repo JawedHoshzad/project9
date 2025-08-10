@@ -5,6 +5,8 @@ class Person:
 
     def print_name(self):
         return f"{self.name} {self.last_name}"
+    def show(self):
+        print("change the code in github")
 
 p1 = Person("Ali", "Rezaei")
 print(p1.print_name())
